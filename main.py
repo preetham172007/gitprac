@@ -1,5 +1,8 @@
 import random
 
+items = ["🍕", "🚀", "🦊", "🎸", "🌈"]
+print("Your random pick:", random.choice(items))
+
 number = random.randint(1, 100)
 attempts = 0
 
